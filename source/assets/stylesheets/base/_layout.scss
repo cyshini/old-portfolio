@@ -1,0 +1,11 @@
+body {
+  background: $grey-dark;
+}
+.wrapper {
+  border: 20px solid $grey-darker;
+  padding: $spacing-m 5%;
+}
+.content {
+  max-width: 1400px;
+  margin: 0 auto;
+}

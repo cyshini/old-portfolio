@@ -1,0 +1,61 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  color: $grey-light;
+  font-family: $copy-font;
+  font-size: $font-size-m;
+  line-height: $copy-line-height;
+}
+
+h1 {
+  font-family: $head-font;
+  font-size: $font-size-xxxl;
+  line-height: $head-line-height;
+  color: $grey-lighter;
+  text-transform: uppercase;
+  letter-spacing: $font-size-m/8;
+  margin: 0 0 $spacing-m 0;
+}
+h2 {
+  font-family: $head-font;
+  font-size: $font-size-xxl;
+  line-height: $head-line-height;
+  color: $grey-lighter;
+  text-transform: uppercase;
+  letter-spacing: $font-size-m/8;
+  margin: 0 0 $spacing-m 0;
+}
+h3 {
+  font-family: $head-font;
+  font-size: $font-size-xl;
+  line-height: $head-line-height;
+  color: $grey-lighter;
+  text-transform: uppercase;
+  letter-spacing: $font-size-m/8;
+  margin: 0 0 $spacing-m 0;
+}
+
+p {
+  margin: 0 0 $spacing-m 0;
+}
+
+a {
+  color: $primary;
+  transition: color 0.1s linear;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: $primary-dark;
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}
+
+img,
+picture {
+  margin: 0;
+  max-width: 100%;
+}

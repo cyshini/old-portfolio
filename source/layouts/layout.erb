@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width">
     <title><%= current_page.data.title || "Gsbodpjt Wjmbjsf" %></title>
+    <link href='https://fonts.googleapis.com/css?family=Work+Sans:300,600,700,900|Inconsolata:400,700' rel='stylesheet' type='text/css'>
     <%= stylesheet_link_tag "application" %>
   </head>
   <body>
-
+  <div class="wrapper">
     <%= partial "views/header" %>
     <div class="content">
       <%= yield %>
     </div>
     <%= partial "views/footer" %>
-
+  </div>
     <%= javascript_include_tag "application.js" %>
   </body>
 </html>
