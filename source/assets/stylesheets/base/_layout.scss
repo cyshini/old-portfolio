@@ -3,9 +3,11 @@ body {
 }
 .wrapper {
   border: 20px solid $grey-darker;
-  padding: $spacing-m 5%;
 }
-.content {
+.row {
   max-width: 1400px;
   margin: 0 auto;
+  padding: 0 $spacing-m;
+  position: relative;
+  z-index: 1;
 }
