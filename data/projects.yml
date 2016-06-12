@@ -1,0 +1,53 @@
+project01:
+- title: Vensto
+  tags:
+    - Direction artistique
+    - Webdesign
+  category: Bijoutier
+  image: http://placehold.it/680x400
+
+project02:
+- title: Méert
+  tags:
+    - Direction artistique
+    - Webdesign
+  category: Pâtissier
+  image: http://placehold.it/680x400
+
+project03:
+- title: AMDPlus
+  tags:
+    - Direction artistique
+    - Webdesign
+  category: Conseiller
+  image: http://placehold.it/680x400
+
+project04:
+- title: MySpacePlanner
+  tags:
+    - Direction artistique
+    - Webdesign
+  category: Architecte
+  image: http://placehold.it/680x400
+
+project05:
+- title: La Redoute
+  tags:
+    - Webdesign
+  category: Habilleur
+  image: http://placehold.it/680x400
+
+project06:
+- title: PREAM
+  tags:
+    - Direction artistique
+    - Webdesign
+  category: Promoteur
+  image: http://placehold.it/680x400
+
+project07:
+- title: Créacept
+  tags:
+    - Direction artistique
+  category: Restaurateur
+  image: http://placehold.it/680x400

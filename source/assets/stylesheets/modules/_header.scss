@@ -1,8 +1,13 @@
 header {
-  margin-bottom: $spacing-l;
+  margin-bottom: $spacing-m;
+  padding: $spacing-s $spacing-m;
   nav {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
+    a:last-of-type {
+    	margin-left: auto;
+    }
   }
+}
+.index .backlink {
+  display: none;
 }
