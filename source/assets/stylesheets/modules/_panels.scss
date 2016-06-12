@@ -21,22 +21,31 @@
 }
 
 .work-info {
-  border: 2px solid $grey-lighter;
-  padding: 30px;
   display: flex;
   flex: 1;
   align-items: center;
   justify-content: center;
   text-align: center;
   @media only screen and (max-width: 992px) {
-    border: none;
     order: 2;
-    padding-bottom: 0;
   }
-  ul {
-    flex: none;
-    list-style: none;
-    font-size: $font-size-s;
+  .caption {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 30px;
+    border: 2px solid $grey-lighter;
+    @media only screen and (max-width: 992px) {
+      border: none;
+      padding-bottom: 0;
+    }
+    ul {
+      flex: none;
+      list-style: none;
+      font-size: $font-size-s;
+    }
   }
 }
 
