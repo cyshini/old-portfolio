@@ -1,50 +1,26 @@
-#about {
+.about {
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
-}
-
-.panel-about {
-  transition: 0.2s ease all;
-  position: relative;
-  z-index: 3;
-  margin-top: -300px;
-  opacity: 0.0;
-  background: $grey-darker;
-  padding: $spacing-m $spacing-m $spacing-l*2 $spacing-m;
-  .close {
-    display: flex;
-    margin: $spacing-s $spacing-m $spacing-m 0;
-    a {
-    	margin-left: auto;
-    }
-    @media only screen and (max-width: 768px) {
-      margin: 0 $spacing-s $spacing-s 0;
-    }
-  }
-}
-
-.overlay {
-  transition: 0.4s ease opacity;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-  background: $primary;
-  opacity: 0.0;
-}
-
-#about:target {
-  position: relative;
-  z-index: 3;
   .panel-about {
-    margin: 0;
-    opacity: 1.0;
+    transition: 0.4s ease all;
+    position: relative;
+    z-index: 3;
+    margin-top: -300px;
+    opacity: 0.0;
+    background: $grey-darker;
+    padding: $spacing-l*2 $spacing-m;
   }
   .overlay {
-    opacity: 0.9;
+    transition: 1.6s ease opacity;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: $primary;
+    opacity: 0.0;
   }
 }

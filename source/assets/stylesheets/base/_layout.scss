@@ -3,6 +3,7 @@ body {
 }
 .wrapper {
   position: relative;
+  padding-top: $spacing-l*1.5;
   border: 20px solid $grey-darker;
   @media only screen and (max-width: 768px) {
     border: none;

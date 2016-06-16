@@ -26,10 +26,12 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  color: inherit;
   @media only screen and (max-width: 992px) {
     order: 2;
   }
   .caption {
+    transition: 0.2s ease all;
     display: flex;
     flex: 1;
     align-items: center;
@@ -49,11 +51,27 @@
   }
 }
 
+.work-info:hover {
+  color: inherit;
+  @media only screen and (min-width: 992px) {
+    color: $grey;
+    .caption {
+      background: $grey-lighter;
+    }
+    h3 {
+      color: $grey-dark;
+    }
+  }
+}
+
 .work-visual {
   align-items: center;
   @media only screen and (max-width: 992px) {
     border: none;
     order: 1;
+  }
+  img {
+    transition: 0.2s ease all;
   }
 }
 
