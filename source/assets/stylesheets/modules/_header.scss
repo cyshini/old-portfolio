@@ -1,3 +1,4 @@
+// Backlink
 .backlink {
   position: absolute;
   top: 25px;
@@ -9,6 +10,7 @@
   display: none;
 }
 
+// About trigger
 .about-trigger {
   position: absolute;
   clip: rect(0, 0, 0, 0);
@@ -27,16 +29,18 @@ label[for="about-trigger"]:after {
 }
 
 .about-trigger:checked ~ .about {
-  position: relative;
+  transition-delay: 0.0s;
   z-index: 3;
   .panel-about {
     margin: 0;
     opacity: 1.0;
   }
   .overlay {
+    transition-delay: 0.4s;
     opacity: 0.9;
   }
 }
+
 
 .about-trigger:checked ~ label[for="about-trigger"]:after {
   content:"Fermer"

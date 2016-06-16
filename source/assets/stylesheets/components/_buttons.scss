@@ -6,6 +6,7 @@ button,
 input[type='button'],
 input[type='reset'],
 input[type='submit'] {
+	transition: color 0.2s ease;
 	background-color: $primary;
 	border: 2px solid $primary;
 	color: $grey-lighter;

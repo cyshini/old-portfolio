@@ -1,10 +1,13 @@
 .about {
+  transition: 0.1s ease all;
+  transition-delay: 0.8s;
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
   .panel-about {
     transition: 0.4s ease all;
+    transition-delay: 0.2s;
     position: relative;
     z-index: 3;
     margin-top: -300px;
@@ -13,7 +16,7 @@
     padding: $spacing-l*2 $spacing-m;
   }
   .overlay {
-    transition: 1.6s ease opacity;
+    transition: 0.4s ease opacity;
     position: fixed;
     top: 0;
     left: 0;
