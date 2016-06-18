@@ -4,7 +4,7 @@ project01:
     - Direction artistique
     - Webdesign
   category: Bijoutier
-  image: http://placehold.it/680x400
+  image: hp-projet01.jpg
 
 project02:
 - title: Projet 2
@@ -12,7 +12,7 @@ project02:
     - Direction artistique
     - Webdesign
   category: Pâtissier
-  image: http://placehold.it/680x400
+  image: hp-projet02.jpg
 
 project03:
 - title: Projet 3
@@ -20,7 +20,7 @@ project03:
     - Direction artistique
     - Webdesign
   category: Conseiller
-  image: http://placehold.it/680x400
+  image: hp-projet03.jpg
 
 project04:
 - title: Projet 4
@@ -28,14 +28,14 @@ project04:
     - Direction artistique
     - Webdesign
   category: Architecte
-  image: http://placehold.it/680x400
+  image: hp-projet04.jpg
 
 project05:
 - title: Projet 5
   tags:
     - Webdesign
   category: Habilleur
-  image: http://placehold.it/680x400
+  image: hp-projet05.jpg
 
 project06:
 - title: Projet 6
@@ -43,11 +43,11 @@ project06:
     - Direction artistique
     - Webdesign
   category: Promoteur
-  image: http://placehold.it/680x400
+  image: hp-projet06.jpg
 
 project07:
 - title: Projet 7
   tags:
     - Direction artistique
   category: Restaurateur
-  image: http://placehold.it/680x400
+  image: hp-projet07.jpg

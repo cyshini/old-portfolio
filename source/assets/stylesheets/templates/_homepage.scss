@@ -1,1 +1,46 @@
+.index {
+  .backlink {
+    display: none;
+  }
+  .logo:after {
+    content: "";
+    display:inline-block;
+    width: 18px;
+    height: 32px;
+    margin-left: 8px;
+    background: url(../images/icon-logo.svg) center center no-repeat;
+  }
+  .social-icons li {
+    list-style:none;
+    display:inline-block;
+    margin-right: $spacing-s;
+    a .icon-social {
+      transition: 0.2s ease all;
+      fill: $primary;
+    }
+    a:hover .icon-social {
+      fill: $primary-dark;
+    }
+  }
+}
 
+.greetings {
+  position: relative;
+}
+
+@media only screen and (min-width: 992px) {
+  .greetings:after {
+    content:"";
+    display:block;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 260px;
+    left: 35%;
+    background: url(../images/portrait.png) center center no-repeat ;
+  }
+}
+
+@media only screen and (min-device-pixel-ratio: 1.5) {
+  background: url(../images/portrait@2x.png) center center no-repeat ;
+}
