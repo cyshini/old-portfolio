@@ -6,15 +6,15 @@ title: "Gsbodpjt Wjmbjsf, webdesigner"
   <div class="row">
 
     <div class="col-xs-12 col-md-6">
-      <div class="hero">
+      <div class="hero wow fadeIn">
         <h1>Gsbodpjt Wjmbjsf</h1>
         <p class="text-lead">Designer au service des internets depuis l'an 2007.<br>Bienvenue sur ce portfolio</p>
-        <p><a>Des travaux ? C'est plus bas &#8595;</a></p>
+        <p><a data-scroll href="#works">Des travaux ? C'est plus bas &#8595;</a></p>
       </div>
     </div>
 
     <div class="col-xs-12 col-md-6">
-      <div class="sidekick">
+      <div class="sidekick wow slideInUp">
         <h2>Cet individu est un webdesigner.</h2>
         <p>Je vis actuellement mon amour de métier au sein de l'agence Silicon Salad, à Lille. Je ne prétends pas encore sauver le monde, mais je garde la plus grande curiosité pour ma profession, ses méthodes et ses buts.</p>
         <p><a>Vous voulez en savoir plus ?</a> Pas de souci, la magie des liens hypertextes va agir. Comble du luxe, vous trouverez également ci-dessous quelques chatoyantes icônes sociables.</p>
@@ -27,8 +27,10 @@ title: "Gsbodpjt Wjmbjsf, webdesigner"
 
 </section>
 
+<div id="works">
+
 <% data.projects.project01.each_with_index do |project, i| %>
-  <section class="work work-right">
+  <section class="work work-right wow fadeInUp" data-wow-delay=".0s" data-wow-offset="100">
 
     <div class="row">
 
@@ -46,12 +48,13 @@ title: "Gsbodpjt Wjmbjsf, webdesigner"
       </a>
 
       <a href="#" class="work-visual col-xs-12 col-md-6">
+        <span class="work-access">Voir le projet <%= project.title %></span>
         <img src="<%= project.image %>" alt="<%= project.title %>">
       </a>
 
     </div>
 
-    <div class="category">
+    <div class="category wow fadeIn" data-wow-delay=".0s" data-wow-offset="100">
       <%= project.category %>
     </div>
 
@@ -59,11 +62,12 @@ title: "Gsbodpjt Wjmbjsf, webdesigner"
 <% end %>
 
 <% data.projects.project02.each_with_index do |project, i| %>
-  <section class="work work-left">
+  <section class="work work-left wow fadeInUp" data-wow-delay=".1s" data-wow-offset="100">
 
     <div class="row">
 
       <a href="#" class="work-visual col-xs-12 col-md-6">
+        <span class="work-access">Voir le projet <%= project.title %></span>
         <img src="<%= project.image %>" alt="<%= project.title %>">
       </a>
 
@@ -82,7 +86,7 @@ title: "Gsbodpjt Wjmbjsf, webdesigner"
 
     </div>
 
-    <div class="category">
+    <div class="category wow fadeIn" data-wow-delay=".1s" data-wow-offset="100">
       <%= project.category %>
     </div>
 
@@ -90,7 +94,7 @@ title: "Gsbodpjt Wjmbjsf, webdesigner"
 <% end %>
 
 <% data.projects.project03.each_with_index do |project, i| %>
-  <section class="work work-right">
+  <section class="work work-right wow fadeInUp" data-wow-delay=".1s" data-wow-offset="100">
 
     <div class="row">
 
@@ -108,12 +112,13 @@ title: "Gsbodpjt Wjmbjsf, webdesigner"
       </a>
 
       <a href="#" class="work-visual col-xs-12 col-md-6">
+        <span class="work-access">Voir le projet <%= project.title %></span>
         <img src="<%= project.image %>" alt="<%= project.title %>">
       </a>
 
     </div>
 
-    <div class="category">
+    <div class="category wow fadeIn" data-wow-delay=".1s" data-wow-offset="100">
       <%= project.category %>
     </div>
 
@@ -121,11 +126,12 @@ title: "Gsbodpjt Wjmbjsf, webdesigner"
 <% end %>
 
 <% data.projects.project04.each_with_index do |project, i| %>
-  <section class="work work-left">
+  <section class="work work-left wow fadeInUp" data-wow-delay=".1s" data-wow-offset="100">
 
     <div class="row">
 
       <a href="#" class="work-visual col-xs-12 col-md-6">
+        <span class="work-access">Voir le projet <%= project.title %></span>
         <img src="<%= project.image %>" alt="<%= project.title %>">
       </a>
 
@@ -144,7 +150,7 @@ title: "Gsbodpjt Wjmbjsf, webdesigner"
 
     </div>
 
-    <div class="category">
+    <div class="category wow fadeIn" data-wow-delay=".1s" data-wow-offset="100">
       <%= project.category %>
     </div>
 
@@ -152,7 +158,7 @@ title: "Gsbodpjt Wjmbjsf, webdesigner"
 <% end %>
 
 <% data.projects.project05.each_with_index do |project, i| %>
-  <section class="work work-right">
+  <section class="work work-right wow fadeInUp" data-wow-delay=".1s" data-wow-offset="100">
 
     <div class="row">
 
@@ -170,12 +176,13 @@ title: "Gsbodpjt Wjmbjsf, webdesigner"
       </a>
 
       <a href="#" class="work-visual col-xs-12 col-md-6">
+        <span class="work-access">Voir le projet <%= project.title %></span>
         <img src="<%= project.image %>" alt="<%= project.title %>">
       </a>
 
     </div>
 
-    <div class="category">
+    <div class="category wow fadeIn" data-wow-delay=".1s" data-wow-offset="100">
       <%= project.category %>
     </div>
 
@@ -183,11 +190,12 @@ title: "Gsbodpjt Wjmbjsf, webdesigner"
 <% end %>
 
 <% data.projects.project06.each_with_index do |project, i| %>
-  <section class="work work-left">
+  <section class="work work-left wow fadeInUp" data-wow-delay=".1s" data-wow-offset="100">
 
     <div class="row">
 
       <a href="#" class="work-visual col-xs-12 col-md-6">
+        <span class="work-access">Voir le projet <%= project.title %></span>
         <img src="<%= project.image %>" alt="<%= project.title %>">
       </a>
 
@@ -206,7 +214,7 @@ title: "Gsbodpjt Wjmbjsf, webdesigner"
 
     </div>
 
-    <div class="category">
+    <div class="category wow fadeIn" data-wow-delay=".1s" data-wow-offset="100">
       <%= project.category %>
     </div>
 
@@ -214,7 +222,7 @@ title: "Gsbodpjt Wjmbjsf, webdesigner"
 <% end %>
 
 <% data.projects.project07.each_with_index do |project, i| %>
-  <section class="work work-right">
+  <section class="work work-right wow fadeInUp" data-wow-delay=".1s" data-wow-offset="100">
 
     <div class="row">
 
@@ -232,14 +240,17 @@ title: "Gsbodpjt Wjmbjsf, webdesigner"
       </a>
 
       <a href="#" class="work-visual col-xs-12 col-md-6">
+        <span class="work-access">Voir le projet <%= project.title %></span>
         <img src="<%= project.image %>" alt="<%= project.title %>">
       </a>
 
     </div>
 
-    <div class="category">
+    <div class="category wow fadeIn" data-wow-delay=".1s" data-wow-offset="100">
       <%= project.category %>
     </div>
 
   </section>
 <% end %>
+
+</div>

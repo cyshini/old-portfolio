@@ -1,5 +1,5 @@
 project01:
-- title: Vensto
+- title: Projet 1
   tags:
     - Direction artistique
     - Webdesign
@@ -7,7 +7,7 @@ project01:
   image: http://placehold.it/680x400
 
 project02:
-- title: Méert
+- title: Projet 2
   tags:
     - Direction artistique
     - Webdesign
@@ -15,7 +15,7 @@ project02:
   image: http://placehold.it/680x400
 
 project03:
-- title: AMDPlus
+- title: Projet 3
   tags:
     - Direction artistique
     - Webdesign
@@ -23,7 +23,7 @@ project03:
   image: http://placehold.it/680x400
 
 project04:
-- title: MySpacePlanner
+- title: Projet 4
   tags:
     - Direction artistique
     - Webdesign
@@ -31,14 +31,14 @@ project04:
   image: http://placehold.it/680x400
 
 project05:
-- title: La Redoute
+- title: Projet 5
   tags:
     - Webdesign
   category: Habilleur
   image: http://placehold.it/680x400
 
 project06:
-- title: PREAM
+- title: Projet 6
   tags:
     - Direction artistique
     - Webdesign
@@ -46,7 +46,7 @@ project06:
   image: http://placehold.it/680x400
 
 project07:
-- title: Créacept
+- title: Projet 7
   tags:
     - Direction artistique
   category: Restaurateur
