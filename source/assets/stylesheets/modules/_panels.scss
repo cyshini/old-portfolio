@@ -101,18 +101,18 @@
   position: relative;
   @media only screen and (max-width: 992px) {
     order: 1;
-    .work-access {
+    .work-logo {
       display:none;
     }
   }
-  .work-access {
+  .work-logo {
     transition: 0.2s ease all;
     position: absolute;
     width: 94%;
     height: 100%;
     top: 0;
     left: 3%;
-    background-color: rgba(64, 75, 223, 0.9);
+    background-color: rgba(34, 34, 38, 0.5);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -123,7 +123,7 @@
 .work-visual:hover {
   color: $grey-lighter;
   @media only screen and (min-width: 992px) {
-    .work-access {
+    .work-logo {
       opacity: 1.0;
     }
   }

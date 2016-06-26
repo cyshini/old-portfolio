@@ -3,16 +3,18 @@ project01:
   tags:
     - Direction artistique
     - Webdesign
-  category: Bijoutier
+  category: Pâtissier
   image: hp-projet01.jpg
+  logo: logo-meert.svg
 
 project02:
 - title: Projet 2
   tags:
     - Direction artistique
     - Webdesign
-  category: Pâtissier
+  category: Bijoutier
   image: hp-projet02.jpg
+  logo: logo-vensto.svg
 
 project03:
 - title: Projet 3
@@ -21,6 +23,7 @@ project03:
     - Webdesign
   category: Conseiller
   image: hp-projet03.jpg
+  logo: logo-amdplus.svg
 
 project04:
 - title: Projet 4
@@ -29,6 +32,7 @@ project04:
     - Webdesign
   category: Architecte
   image: hp-projet04.jpg
+  logo: logo-myspaceplanner.svg
 
 project05:
 - title: Projet 5
@@ -36,6 +40,7 @@ project05:
     - Webdesign
   category: Habilleur
   image: hp-projet05.jpg
+  logo: logo-laredoute.svg
 
 project06:
 - title: Projet 6
@@ -44,6 +49,7 @@ project06:
     - Webdesign
   category: Promoteur
   image: hp-projet06.jpg
+  logo: logo-pream.svg
 
 project07:
 - title: Projet 7
@@ -51,3 +57,4 @@ project07:
     - Direction artistique
   category: Restaurateur
   image: hp-projet07.jpg
+  logo: logo-creacept.svg
