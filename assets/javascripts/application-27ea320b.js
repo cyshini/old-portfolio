@@ -1,1 +1,0 @@
-smoothScroll.init({selector:"[data-scroll]",selectorHeader:"[data-scroll-header]",speed:500,easing:"easeInOutCubic",offset:50,updateURL:!1,callback:function(e,a){}}),(new WOW).init();
