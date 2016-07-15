@@ -1,3 +1,8 @@
+//= require retina.min.js
+//= require smoothscroll.min.js
+//= require wow.min.js
+//= require barba.min.js
+
 smoothScroll.init({
     selector: '[data-scroll]', // Selector for links (must be a valid CSS selector)
     selectorHeader: '[data-scroll-header]', // Selector for fixed headers (must be a valid CSS selector)
@@ -9,3 +14,21 @@ smoothScroll.init({
 });
 
 new WOW().init();
+
+Barba.Pjax.start();
+Barba.Pjax.fetch();
+
+var HideShowTransition = Barba.BaseTransition.extend({
+  start: function() {
+    this.newContainerLoading.then(this.finish.bind(this));
+  },
+
+  finish: function() {
+    document.body.scrollTop = 0;
+    this.done();
+  }
+});
+
+Barba.Pjax.getTransition = function() {
+  return HideShowTransition;
+};

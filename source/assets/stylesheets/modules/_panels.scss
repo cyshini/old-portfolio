@@ -3,6 +3,9 @@
   margin: $spacing-m 0;
   position:relative;
   z-index: 1;
+  ul {
+    list-style: none;
+  }
 }
 
 .sidekick {

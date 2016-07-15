@@ -1,0 +1,29 @@
+---
+title: Créacept
+---
+
+<% data.projects.project07.each_with_index do |project, i| %>
+<section class="main">
+
+  <div class="row">
+
+    <div class="col-xs-12 col-md-7">
+      <%= image_tag lorem.image('800x680'), alt: project.title %>
+    </div>
+
+    <div class="col-xs-12 col-md-5">
+      <div class="hero">
+        <h1><%= project.title %></h1>
+        <p class="text-lead"><%= project.description %></p>
+        <p><%= project.context %></p>
+        <p><a href=<%= project.live %> rel="nofollow">Visitez le site &rarr;</a></p>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<%= partial "views/nav" %>
+
+<% end %>

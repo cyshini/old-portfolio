@@ -1,0 +1,10 @@
+---
+index.html.erb: "/index.html.erb"
+works:
+  project-01.html.erb: "/works/project-01.html.erb"
+  project-02.html.erb: "/works/project-02.html.erb"
+  project-03.html.erb: "/works/project-03.html.erb"
+  project-04.html.erb: "/works/project-04.html.erb"
+  project-05.html.erb: "/works/project-05.html.erb"
+  project-06.html.erb: "/works/project-06.html.erb"
+  project-07.html.erb: "/works/project-07.html.erb"

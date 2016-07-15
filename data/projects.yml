@@ -1,60 +1,88 @@
 project01:
-- title: Projet 1
+- title: Méert
+  description: La vente en ligne des produits artisanaux de la célèbre pâtisserie lilloise, mais également ses boutiques et restaurants, son histoire séculaire.
+  context: Réalisé en 2015 au sein de l'agence Silicon Salad.<br>Direction artistique + webdesign.
   tags:
     - Direction artistique
     - Webdesign
   category: Pâtissier
   image: hp-projet01.jpg
   logo: logo-meert.svg
+  url: works/project-01
+  live: https://www.meert.fr/
 
 project02:
-- title: Projet 2
+- title: Vensto
+  description: Le versant e-commerce de la bijouterie Stoven, regroupant parmi les plus grandes marques de bijoux et montres.
+  context: Réalisé en 2015 au sein de l'agence Silicon Salad.<br>Direction artistique + webdesign.
   tags:
     - Direction artistique
     - Webdesign
   category: Bijoutier
   image: hp-projet02.jpg
   logo: logo-vensto.svg
+  url: works/project-02
+  live: https://www.vensto.com/
 
 project03:
-- title: Projet 3
+- title: AMDPlus
+  description: Le site institutionnel de AMDPlus, les experts en gestion et finance accompagnant les PME pour sécuriser et accroître leur développement.
+  context: Réalisé en 2015 au sein de l'agence Silicon Salad.<br>Direction artistique + webdesign.
   tags:
     - Direction artistique
     - Webdesign
   category: Conseiller
   image: hp-projet03.jpg
   logo: logo-amdplus.svg
+  url: works/project-03
+  live: http://www.amdplus.eu/
 
 project04:
-- title: Projet 4
+- title: MySpacePlanner
+  description: Le portfolio et la présentation de l'agence MySpacePlanner, située à Nancy et offrant tout un panel de prestations en architecture d'intérieur.
+  context: Réalisé en 2015 en tant que freelance.<br>Direction artistique + webdesign.
   tags:
     - Direction artistique
     - Webdesign
   category: Architecte
   image: hp-projet04.jpg
   logo: logo-myspaceplanner.svg
+  url: works/project-04
+  live: http://myspaceplanner.fr/
 
 project05:
-- title: Projet 5
+- title: La Redoute
+  description: Le site corporate du groupe La Redoute, présentant les valeurs de l'entreprise, ses collections ainsi que ses offres de recrutement.
+  context: Réalisé en 2015 au sein de l'agence Silicon Salad.<br>Webdesign.
   tags:
     - Webdesign
   category: Habilleur
   image: hp-projet05.jpg
   logo: logo-laredoute.svg
+  url: works/project-05
+  live: http://www.laredoute-corporate.com/
 
 project06:
-- title: Projet 6
+- title: Pream
+  description: Le site de l'aménageur foncier et promoteur immobilier Pream, regroupant toutes ses offres de biens immobiliers pour les futurs propriétaires.
+  context: Réalisé en 2014 au sein de l'agence Silicon Salad.<br>Direction artistique + webdesign.
   tags:
     - Direction artistique
     - Webdesign
   category: Promoteur
   image: hp-projet06.jpg
   logo: logo-pream.svg
+  url: works/project-06
+  live: http://www.pream.fr/
 
 project07:
-- title: Projet 7
+- title: Créacept
+  description: Proposition réalisée pour l'appel d'offre de Créacept, les spécialistes dans le conseil à la conception de cuisines professionnelles.
+  context: Réalisé en 2015 au sein de l'agence Silicon Salad.<br>Direction artistique.
   tags:
     - Direction artistique
   category: Restaurateur
   image: hp-projet07.jpg
   logo: logo-creacept.svg
+  url: works/project-07
+  live: http://www.creacept.fr/
