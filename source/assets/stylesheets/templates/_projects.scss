@@ -1,3 +1,19 @@
-.works .main:after {
+.works {
+  .main:after {
     display: none;
+  }
+  .hero {
+    position: sticky;
+    top: 40px;
+  }
+  .hero:before,
+  .hero:after {
+      content: '';
+      display: table;
+  }
+  .visuals {
+    @media only screen and (max-width: 992px) {
+      order: 2;
+    }
+  }
 }

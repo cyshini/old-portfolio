@@ -7,12 +7,12 @@ title: Pream
 
   <div class="row">
 
-    <div class="col-xs-12 col-md-7">
+    <div class="visuals col-xs-12 col-md-7">
       <%= image_tag lorem.image('800x680'), alt: project.title %>
     </div>
 
     <div class="col-xs-12 col-md-5">
-      <div class="hero">
+      <div class="hero" id="sidebar">
         <h1><%= project.title %></h1>
         <p class="text-lead"><%= project.description %></p>
         <p><%= project.context %></p>
@@ -24,6 +24,12 @@ title: Pream
 
 </section>
 
-<%= partial "views/nav" %>
+<section class="navbar">
+  <ul>
+    <li class="prev"><a href="project-05" class="button">Précédent</a></li>
+    <li><a href="/" class="button button-outline">Accueil</a></li>
+    <li class="next"><a href="project-07" class="button">Suivant</a></li>
+  </ul>
+</section>
 
 <% end %>
