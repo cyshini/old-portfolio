@@ -6,10 +6,9 @@
     display: inline-block;
     margin: $spacing-s;
   }
-  .next:after {
-    content: " →";
-  }
-  .prev:before {
-    content: "← ";
+  @media only screen and (max-width: 768px) {
+    .home {
+      display:none;
+    }
   }
 }

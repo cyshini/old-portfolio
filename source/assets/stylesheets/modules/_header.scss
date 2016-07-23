@@ -1,9 +1,12 @@
 // Backlink
 .backlink {
   position: absolute;
-  top: 25px;
+  top: 30px;
   left: 40px;
   z-index: 1;
+  a {
+    margin-left: $spacing-s;
+  }
 }
 
 // About trigger
@@ -14,14 +17,13 @@
 
 label[for="about-trigger"] {
   position: absolute;
-  top: 25px;
+  top: 30px;
   right: 40px;
   z-index: 4;
   cursor: pointer;
-}
-
-label[for="about-trigger"]:after {
-  content:"À propos"
+  &:after {
+    content:"À propos"
+  }
 }
 
 .about-trigger:checked ~ .about {
@@ -36,7 +38,6 @@ label[for="about-trigger"]:after {
     opacity: 0.9;
   }
 }
-
 
 .about-trigger:checked ~ label[for="about-trigger"]:after {
   content:"Fermer"

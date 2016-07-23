@@ -5,11 +5,16 @@
   .hero {
     position: sticky;
     top: 40px;
-  }
-  .hero:before,
-  .hero:after {
-      content: '';
-      display: table;
+    margin-bottom: $spacing-l;
+    @media only screen and (max-width: 992px) {
+      position: relative;
+      top: 0;
+    }
+    &:before,
+    &:after {
+        content: '';
+        display: table;
+    }
   }
   .visuals {
     @media only screen and (max-width: 992px) {
