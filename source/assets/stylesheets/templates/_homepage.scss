@@ -2,28 +2,29 @@
   .backlink {
     display: none;
   }
-  .logo:after {
-    content: "";
-    display:inline-block;
-    width: 18px;
-    height: 32px;
-    margin-left: 8px;
-    background: url(../images/icon-logo.svg) center center no-repeat;
-    @media only screen and (max-width: 992px) {
-      display: none;
-    }
+}
+
+.logo:after {
+  content: "";
+  display:inline-block;
+  width: 18px;
+  height: 32px;
+  margin-left: 8px;
+  background: url(../images/icon-logo.svg) center center no-repeat;
+  @media only screen and (max-width: 992px) {
+    display: none;
   }
-  .social-icons li {
-    list-style:none;
-    display:inline-block;
-    margin-right: $spacing-s;
-    a .icon-social {
-      transition: 0.2s ease all;
-      fill: $primary;
-    }
-    a:hover .icon-social {
-      fill: $primary-dark;
-    }
+}
+.social-icons li {
+  list-style:none;
+  display:inline-block;
+  margin-right: $spacing-s;
+  a .icon-social {
+    transition: 0.2s ease all;
+    fill: $primary;
+  }
+  a:hover .icon-social {
+    fill: $primary-dark;
   }
 }
 

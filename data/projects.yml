@@ -10,6 +10,7 @@ project01:
   logo: logo-meert.svg
   url: works/project-01
   live: https://www.meert.fr/
+  screen01: projet-meert01.jpg
 
 project02:
 - title: Vensto
@@ -23,6 +24,7 @@ project02:
   logo: logo-vensto.svg
   url: works/project-02
   live: https://www.vensto.com/
+  screen01: projet-vensto01.jpg
 
 project03:
 - title: AMDPlus
@@ -36,6 +38,7 @@ project03:
   logo: logo-amdplus.svg
   url: works/project-03
   live: http://www.amdplus.eu/
+  screen01: projet-amdplus01.jpg
 
 project04:
 - title: MySpacePlanner
@@ -49,10 +52,11 @@ project04:
   logo: logo-myspaceplanner.svg
   url: works/project-04
   live: http://myspaceplanner.fr/
+  screen01: projet-myspaceplanner01.jpg
 
 project05:
 - title: La Redoute
-  description: Le site corporate du groupe La Redoute, présentant les valeurs de l'entreprise, ses collections ainsi que ses offres de recrutement.
+  description: Le site corporate du groupe La Redoute, présentant l'histoire et les valeurs de l'entreprise, ses marques ainsi que ses offres de recrutement.
   context: Réalisé en 2015 au sein de l'agence Silicon Salad.<br>Webdesign.
   tags:
     - Webdesign
@@ -61,6 +65,7 @@ project05:
   logo: logo-laredoute.svg
   url: works/project-05
   live: http://www.laredoute-corporate.com/
+  screen01: projet-laredoute01.jpg
 
 project06:
 - title: Pream
@@ -74,6 +79,7 @@ project06:
   logo: logo-pream.svg
   url: works/project-06
   live: http://www.pream.fr/
+  screen01: projet-pream01.jpg
 
 project07:
 - title: Créacept
@@ -85,4 +91,5 @@ project07:
   image: hp-projet07.jpg
   logo: logo-creacept.svg
   url: works/project-07
-  live: http://www.creacept.fr/
+  live:
+  screen01: projet-creacept01.jpg

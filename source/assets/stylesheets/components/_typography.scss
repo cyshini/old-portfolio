@@ -15,6 +15,7 @@ h1 {
   text-transform: uppercase;
   letter-spacing: $font-size-m/8;
   margin: 0 0 $spacing-m 0;
+  word-break: break-all;
 }
 h2 {
   font-family: $head-font;

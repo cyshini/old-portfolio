@@ -8,7 +8,7 @@ title: Vensto
   <div class="row">
 
     <div class="visuals col-xs-12 col-md-7">
-      <%= image_tag 'placeholder.png', alt: project.title %>
+      <%= image_tag project.screen01, alt: project.title %>
     </div>
 
     <div class="col-xs-12 col-md-5">
@@ -16,7 +16,7 @@ title: Vensto
         <h1><%= project.title %></h1>
         <p class="text-lead"><%= project.description %></p>
         <p><%= project.context %></p>
-        <p><a href=<%= project.live %> rel="nofollow">Visitez le site &rarr;</a></p>
+        <p><a href=<%= project.live %> rel="nofollow">Visitez le site</a></p>
       </div>
     </div>
 
@@ -26,9 +26,9 @@ title: Vensto
 
 <section class="navbar">
   <ul>
-    <li class="prev"><a href="project-01" class="button">←</a></li>
+    <li class="prev"><a href="project-01" class="button"><%= image_tag "icon-arrow-left.svg" %></a></li>
     <li class="home"><a href="/" class="button button-outline">Accueil</a></li>
-    <li class="next"><a href="project-03" class="button">→</a></li>
+    <li class="next"><a href="project-03" class="button"><%= image_tag "icon-arrow-right.svg" %></a></li>
   </ul>
 </section>
 
