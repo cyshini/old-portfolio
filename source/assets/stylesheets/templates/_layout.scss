@@ -23,6 +23,9 @@ body {
 .main {
   position: relative;
   padding-top: $spacing-l;
+  @media only screen and (max-width: 768px) {
+    padding-top: $spacing-m;
+  }
   &:after {
     content: "";
     display: block;
