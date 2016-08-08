@@ -2,23 +2,9 @@
   .main:after {
     display: none;
   }
-  .hero {
-    position: sticky;
-    top: 40px;
-    margin-bottom: $spacing-l;
-    @media only screen and (max-width: 992px) {
-      position: relative;
-      top: 0;
-    }
-    &:before,
-    &:after {
-        content: '';
-        display: table;
-    }
-  }
-  .visuals {
-    @media only screen and (max-width: 992px) {
-      order: 2;
-    }
+  .project-intro {
+    text-align: center;
+    margin-top: $spacing-m;
+    margin-bottom: $spacing-m;
   }
 }

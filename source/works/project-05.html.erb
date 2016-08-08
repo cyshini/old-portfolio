@@ -7,17 +7,15 @@ title: La Redoute
 
   <div class="row">
 
-    <div class="visuals col-xs-12 col-md-7">
-      <%= image_tag project.screen01, alt: project.title %>
+    <div class="project-intro col-xs-12 col-md-6 off-md-3">
+      <h1><%= project.title %></h1>
+      <p class="text-lead"><%= project.description %></p>
+      <p><%= project.context %></p>
+      <p><a href=<%= project.live %> rel="nofollow">Visitez le site</a></p>
     </div>
 
-    <div class="col-xs-12 col-md-5">
-      <div class="hero" id="sidebar">
-        <h1><%= project.title %></h1>
-        <p class="text-lead"><%= project.description %></p>
-        <p><%= project.context %></p>
-        <p><a href=<%= project.live %> rel="nofollow">Visitez le site</a></p>
-      </div>
+    <div class="project-visuals col-xs-12 col-md-10 off-md-1">
+      <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src=<%= project.screen01 %> alt=<%= project.title %>>
     </div>
 
   </div>

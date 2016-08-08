@@ -15,18 +15,16 @@
     <%= stylesheet_link_tag "application" %>
   </head>
   <body>
-  <div id="barba-wrapper">
-    <div class="barba-container <%= page_classes %>">
+    <div class="page <%= page_classes %>">
       <%= partial "views/header" %>
       <%= partial "views/about" %>
       <div class="wrapper">
-        <div class="content wow fadeIn" data-wow-delay=".0s" data-wow-offset="0">
+        <div class="content">
             <%= yield %>
         </div>
         <%= partial "views/footer" %>
       </div>
     </div>
-  </div>
-  <%= javascript_include_tag "application.js" %>
+    <%= javascript_include_tag "application.js" %>
   </body>
 </html>
