@@ -1,10 +1,9 @@
-.works {
-  .main:after {
-    display: none;
-  }
-  .project-intro {
-    text-align: center;
-    margin-top: $spacing-m;
-    margin-bottom: $spacing-m;
-  }
+.project-intro {
+  text-align: center;
+  margin-top: $spacing-m;
+  margin-bottom: $spacing-m;
+}
+
+.project-visuals {
+  min-height: 1090px;
 }

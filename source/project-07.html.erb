@@ -15,7 +15,8 @@ title: Créacept
     </div>
 
     <div class="project-visuals col-xs-12 col-md-10 off-md-1">
-      <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src=<%= project.screen01 %> alt=<%= project.title %>>
+      <img class="b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/images/<%= project.screen01 %>|/assets/images/<%= project.screen01retina %>" alt="<%= project.title %>">
+      <noscript><img src="/assets/images/<%= project.screen01 %>" alt="<%= project.title %>" /></noscript>
     </div>
 
   </div>
@@ -24,9 +25,9 @@ title: Créacept
 
 <section class="navbar">
   <ul>
-    <li class="prev"><a href="project-06" class="button"><%= image_tag "icon-arrow-left.svg" %></a></li>
+    <li class="prev"><a href="/project-06" class="button"><%= image_tag "icon-arrow-left.svg" %></a></li>
     <li class="home"><a href="/" class="button button-outline">Accueil</a></li>
-    <li class="next"><a href="project-01" class="button"><%= image_tag "icon-arrow-right.svg" %></a></li>
+    <li class="next"><a href="/project-01" class="button"><%= image_tag "icon-arrow-right.svg" %></a></li>
   </ul>
 </section>
 

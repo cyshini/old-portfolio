@@ -8,9 +8,10 @@ project01:
   category: Pâtissier
   image: hp-projet01.jpg
   logo: logo-meert.svg
-  url: works/project-01
+  url: project-01
   live: https://www.meert.fr/
-  screen01: ../assets/images/projet-meert01.jpg
+  screen01: projet-meert01.jpg
+  screen01retina: projet-meert01@2x.jpg
 
 project02:
 - title: Vensto
@@ -22,9 +23,10 @@ project02:
   category: Bijoutier
   image: hp-projet02.jpg
   logo: logo-vensto.svg
-  url: works/project-02
+  url: project-02
   live: https://www.vensto.com/
-  screen01: ../assets/images/projet-vensto01.jpg
+  screen01: projet-vensto01.jpg
+  screen01retina: projet-vensto01@2x.jpg
 
 project03:
 - title: AMDPlus
@@ -36,9 +38,10 @@ project03:
   category: Conseiller
   image: hp-projet03.jpg
   logo: logo-amdplus.svg
-  url: works/project-03
+  url: project-03
   live: http://www.amdplus.eu/
-  screen01: ../assets/images/projet-amdplus01.jpg
+  screen01: projet-amdplus01.jpg
+  screen01retina: projet-amdplus01@2x.jpg
 
 project04:
 - title: My Space Planner
@@ -50,9 +53,10 @@ project04:
   category: Architecte
   image: hp-projet04.jpg
   logo: logo-myspaceplanner.svg
-  url: works/project-04
+  url: project-04
   live: http://myspaceplanner.fr/
-  screen01: ../assets/images/projet-myspaceplanner01.jpg
+  screen01: projet-myspaceplanner01.jpg
+  screen01retina: projet-myspaceplanner01@2x.jpg
 
 project05:
 - title: La Redoute
@@ -63,9 +67,10 @@ project05:
   category: Habilleur
   image: hp-projet05.jpg
   logo: logo-laredoute.svg
-  url: works/project-05
+  url: project-05
   live: http://www.laredoute-corporate.com/
-  screen01: ../assets/images/projet-laredoute01.jpg
+  screen01: projet-laredoute01.jpg
+  screen01retina: projet-laredoute01@2x.jpg
 
 project06:
 - title: Pream
@@ -77,9 +82,10 @@ project06:
   category: Promoteur
   image: hp-projet06.jpg
   logo: logo-pream.svg
-  url: works/project-06
+  url: project-06
   live: http://www.pream.fr/
-  screen01: ../assets/images/projet-pream01.jpg
+  screen01: projet-pream01.jpg
+  screen01retina: projet-pream01@2x.jpg
 
 project07:
 - title: Créacept
@@ -90,6 +96,7 @@ project07:
   category: Restaurateur
   image: hp-projet07.jpg
   logo: logo-creacept.svg
-  url: works/project-07
+  url: project-07
   live:
-  screen01: ../assets/images/projet-creacept01.jpg
+  screen01: projet-creacept01.jpg
+  screen01retina: projet-creacept01@2x.jpg
