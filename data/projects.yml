@@ -7,6 +7,7 @@ project01:
     - Webdesign
   category: Pâtissier
   image: hp-projet01.jpg
+  imageretina: hp-projet01@2x.jpg
   logo: logo-meert.svg
   url: project-01
   live: https://www.meert.fr/
@@ -22,6 +23,7 @@ project02:
     - Webdesign
   category: Bijoutier
   image: hp-projet02.jpg
+  imageretina: hp-projet02@2x.jpg
   logo: logo-vensto.svg
   url: project-02
   live: https://www.vensto.com/
@@ -37,6 +39,7 @@ project03:
     - Webdesign
   category: Conseiller
   image: hp-projet03.jpg
+  imageretina: hp-projet03@2x.jpg
   logo: logo-amdplus.svg
   url: project-03
   live: http://www.amdplus.eu/
@@ -52,6 +55,7 @@ project04:
     - Webdesign
   category: Architecte
   image: hp-projet04.jpg
+  imageretina: hp-projet04@2x.jpg
   logo: logo-myspaceplanner.svg
   url: project-04
   live: http://myspaceplanner.fr/
@@ -66,6 +70,7 @@ project05:
     - Webdesign
   category: Habilleur
   image: hp-projet05.jpg
+  imageretina: hp-projet05@2x.jpg
   logo: logo-laredoute.svg
   url: project-05
   live: http://www.laredoute-corporate.com/
@@ -81,6 +86,7 @@ project06:
     - Webdesign
   category: Promoteur
   image: hp-projet06.jpg
+  imageretina: hp-projet06@2x.jpg
   logo: logo-pream.svg
   url: project-06
   live: http://www.pream.fr/
@@ -95,6 +101,7 @@ project07:
     - Direction artistique
   category: Restaurateur
   image: hp-projet07.jpg
+  imageretina: hp-projet07@2x.jpg
   logo: logo-creacept.svg
   url: project-07
   live:

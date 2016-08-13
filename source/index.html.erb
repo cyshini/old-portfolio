@@ -35,7 +35,7 @@ title: "Bonjour"
 <div id="works">
 
 <% data.projects.project01.each_with_index do |project, i| %>
-  <section class="work work-right wow fadeIn" data-wow-delay=".0s" data-wow-offset="50">
+  <section class="work work-right">
 
     <div class="row">
 
@@ -54,12 +54,12 @@ title: "Bonjour"
 
       <a href=<%= project.url %> class="work-visual col-xs-12 col-md-6">
         <span class="work-logo"><%= image_tag project.logo, width:'140', alt: project.title %></span>
-        <%= image_tag project.image, alt: project.title %>
+        <img src="/assets/images/<%= project.image %>" alt="<%= project.title %>" />
       </a>
 
     </div>
 
-    <div class="category wow fadeIn" data-wow-delay=".0s" data-wow-offset="50">
+    <div class="category">
       <%= project.category %>
     </div>
 
@@ -67,13 +67,13 @@ title: "Bonjour"
 <% end %>
 
 <% data.projects.project02.each_with_index do |project, i| %>
-  <section class="work work-left wow fadeIn" data-wow-delay=".1s" data-wow-offset="50">
+  <section class="work work-left">
 
     <div class="row">
 
       <a href=<%= project.url %> class="work-visual col-xs-12 col-md-6">
         <span class="work-logo"><%= image_tag project.logo, width:'140', alt: project.title %></span>
-        <%= image_tag project.image, alt: project.title %>
+        <img src="/assets/images/<%= project.image %>" alt="<%= project.title %>" />
       </a>
 
       <a href=<%= project.url %> class="work-info col-xs-12 col-md-3">
@@ -91,7 +91,7 @@ title: "Bonjour"
 
     </div>
 
-    <div class="category wow fadeIn" data-wow-delay=".1s" data-wow-offset="50">
+    <div class="category">
       <%= project.category %>
     </div>
 
@@ -99,7 +99,7 @@ title: "Bonjour"
 <% end %>
 
 <% data.projects.project03.each_with_index do |project, i| %>
-  <section class="work work-right wow fadeIn" data-wow-delay=".1s" data-wow-offset="50">
+  <section class="work work-right">
 
     <div class="row">
 
@@ -118,12 +118,12 @@ title: "Bonjour"
 
       <a href=<%= project.url %> class="work-visual col-xs-12 col-md-6">
         <span class="work-logo"><%= image_tag project.logo, width:'140', alt: project.title %></span>
-        <%= image_tag project.image, alt: project.title %>
+        <img src="/assets/images/<%= project.image %>" alt="<%= project.title %>" />
       </a>
 
     </div>
 
-    <div class="category wow fadeIn" data-wow-delay=".1s" data-wow-offset="50">
+    <div class="category">
       <%= project.category %>
     </div>
 
@@ -131,13 +131,13 @@ title: "Bonjour"
 <% end %>
 
 <% data.projects.project04.each_with_index do |project, i| %>
-  <section class="work work-left wow fadeIn" data-wow-delay=".1s" data-wow-offset="50">
+  <section class="work work-left">
 
     <div class="row">
 
       <a href=<%= project.url %> class="work-visual col-xs-12 col-md-6">
         <span class="work-logo"><%= image_tag project.logo, width:'140', alt: project.title %></span>
-        <%= image_tag project.image, alt: project.title %>
+        <img src="/assets/images/<%= project.image %>" alt="<%= project.title %>" />
       </a>
 
       <a href=<%= project.url %> class="work-info col-xs-12 col-md-3">
@@ -155,7 +155,7 @@ title: "Bonjour"
 
     </div>
 
-    <div class="category wow fadeIn" data-wow-delay=".1s" data-wow-offset="50">
+    <div class="category">
       <%= project.category %>
     </div>
 
@@ -163,7 +163,7 @@ title: "Bonjour"
 <% end %>
 
 <% data.projects.project05.each_with_index do |project, i| %>
-  <section class="work work-right wow fadeIn" data-wow-delay=".1s" data-wow-offset="50">
+  <section class="work work-right">
 
     <div class="row">
 
@@ -182,12 +182,12 @@ title: "Bonjour"
 
       <a href=<%= project.url %> class="work-visual col-xs-12 col-md-6">
         <span class="work-logo"><%= image_tag project.logo, width:'140', alt: project.title %></span>
-        <%= image_tag project.image, alt: project.title %>
+        <img src="/assets/images/<%= project.image %>" alt="<%= project.title %>" />
       </a>
 
     </div>
 
-    <div class="category wow fadeIn" data-wow-delay=".1s" data-wow-offset="50">
+    <div class="category">
       <%= project.category %>
     </div>
 
@@ -195,13 +195,13 @@ title: "Bonjour"
 <% end %>
 
 <% data.projects.project06.each_with_index do |project, i| %>
-  <section class="work work-left wow fadeIn" data-wow-delay=".1s" data-wow-offset="50">
+  <section class="work work-left">
 
     <div class="row">
 
       <a href=<%= project.url %> class="work-visual col-xs-12 col-md-6">
         <span class="work-logo"><%= image_tag project.logo, width:'140', alt: project.title %></span>
-        <%= image_tag project.image, alt: project.title %>
+        <img src="/assets/images/<%= project.image %>" alt="<%= project.title %>" />
       </a>
 
       <a href=<%= project.url %> class="work-info col-xs-12 col-md-3">
@@ -219,7 +219,7 @@ title: "Bonjour"
 
     </div>
 
-    <div class="category wow fadeIn" data-wow-delay=".1s" data-wow-offset="50">
+    <div class="category">
       <%= project.category %>
     </div>
 
@@ -227,7 +227,7 @@ title: "Bonjour"
 <% end %>
 
 <% data.projects.project07.each_with_index do |project, i| %>
-  <section class="work work-right wow fadeIn" data-wow-delay=".1s" data-wow-offset="50">
+  <section class="work work-right">
 
     <div class="row">
 
@@ -246,12 +246,12 @@ title: "Bonjour"
 
       <a href=<%= project.url %> class="work-visual col-xs-12 col-md-6">
         <span class="work-logo"><%= image_tag project.logo, width:'140', alt: project.title %></span>
-        <%= image_tag project.image, alt: project.title %>
+        <img src="/assets/images/<%= project.image %>" alt="<%= project.title %>" />
       </a>
 
     </div>
 
-    <div class="category wow fadeIn" data-wow-delay=".1s" data-wow-offset="50">
+    <div class="category">
       <%= project.category %>
     </div>
 
