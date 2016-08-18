@@ -1,7 +1,6 @@
 //= require blazy.min.js
 //= require sloth.min.js
 //= require smoothscroll.min.js
-//= require retina.min.js
 
 /* Lazy loading */
 ;(function() {

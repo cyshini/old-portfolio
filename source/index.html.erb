@@ -15,7 +15,7 @@ title: "Bonjour"
 
     <div class="col-xs-12 col-md-6">
       <div class="sidekick">
-        <h2>Cet individu est un webdesigner.</h2>
+        <h2>Cet individu pratique le design numérique</h2>
         <p>Je vis actuellement mon amour de métier au sein de l'agence Silicon Salad, à Lille. Je ne prétends pas encore sauver le monde, mais je garde la plus grande curiosité pour ma profession, ses méthodes et ses buts.</p>
         <p>Vous voulez en savoir plus ? Pas de souci, la magie de l'interactivité se trouve en haut à droite. Comble du luxe, vous trouverez également ci-dessous quelques chatoyantes icônes sociables.</p>
         <p>Merci de votre visite, revenez quand vous voulez.</p>
@@ -54,7 +54,7 @@ title: "Bonjour"
 
       <a href=<%= project.url %> class="work-visual col-xs-12 col-md-6">
         <span class="work-logo"><%= image_tag project.logo, width:'140', alt: project.title %></span>
-        <img src="/assets/images/<%= project.image %>" alt="<%= project.title %>" />
+        <img src="/assets/images/<%= project.image %>" srcset="/assets/images/<%= project.image %>, /assets/images/<%= project.imageretina %> 2x" alt="<%= project.title %>">
       </a>
 
     </div>
@@ -73,7 +73,7 @@ title: "Bonjour"
 
       <a href=<%= project.url %> class="work-visual col-xs-12 col-md-6">
         <span class="work-logo"><%= image_tag project.logo, width:'140', alt: project.title %></span>
-        <img src="/assets/images/<%= project.image %>" alt="<%= project.title %>" />
+        <img src="/assets/images/<%= project.image %>" srcset="/assets/images/<%= project.image %>, /assets/images/<%= project.imageretina %> 2x" alt="<%= project.title %>">
       </a>
 
       <a href=<%= project.url %> class="work-info col-xs-12 col-md-3">
@@ -118,7 +118,7 @@ title: "Bonjour"
 
       <a href=<%= project.url %> class="work-visual col-xs-12 col-md-6">
         <span class="work-logo"><%= image_tag project.logo, width:'140', alt: project.title %></span>
-        <img src="/assets/images/<%= project.image %>" alt="<%= project.title %>" />
+        <img src="/assets/images/<%= project.image %>" srcset="/assets/images/<%= project.image %>, /assets/images/<%= project.imageretina %> 2x" alt="<%= project.title %>">
       </a>
 
     </div>
@@ -137,7 +137,7 @@ title: "Bonjour"
 
       <a href=<%= project.url %> class="work-visual col-xs-12 col-md-6">
         <span class="work-logo"><%= image_tag project.logo, width:'140', alt: project.title %></span>
-        <img src="/assets/images/<%= project.image %>" alt="<%= project.title %>" />
+        <img src="/assets/images/<%= project.image %>" srcset="/assets/images/<%= project.image %>, /assets/images/<%= project.imageretina %> 2x" alt="<%= project.title %>">
       </a>
 
       <a href=<%= project.url %> class="work-info col-xs-12 col-md-3">
@@ -182,7 +182,7 @@ title: "Bonjour"
 
       <a href=<%= project.url %> class="work-visual col-xs-12 col-md-6">
         <span class="work-logo"><%= image_tag project.logo, width:'140', alt: project.title %></span>
-        <img src="/assets/images/<%= project.image %>" alt="<%= project.title %>" />
+        <img src="/assets/images/<%= project.image %>" srcset="/assets/images/<%= project.image %>, /assets/images/<%= project.imageretina %> 2x" alt="<%= project.title %>">
       </a>
 
     </div>
@@ -201,7 +201,7 @@ title: "Bonjour"
 
       <a href=<%= project.url %> class="work-visual col-xs-12 col-md-6">
         <span class="work-logo"><%= image_tag project.logo, width:'140', alt: project.title %></span>
-        <img src="/assets/images/<%= project.image %>" alt="<%= project.title %>" />
+        <img src="/assets/images/<%= project.image %>" srcset="/assets/images/<%= project.image %>, /assets/images/<%= project.imageretina %> 2x" alt="<%= project.title %>">
       </a>
 
       <a href=<%= project.url %> class="work-info col-xs-12 col-md-3">
@@ -246,7 +246,7 @@ title: "Bonjour"
 
       <a href=<%= project.url %> class="work-visual col-xs-12 col-md-6">
         <span class="work-logo"><%= image_tag project.logo, width:'140', alt: project.title %></span>
-        <img src="/assets/images/<%= project.image %>" alt="<%= project.title %>" />
+        <img src="/assets/images/<%= project.image %>" srcset="/assets/images/<%= project.image %>, /assets/images/<%= project.imageretina %> 2x" alt="<%= project.title %>">
       </a>
 
     </div>
