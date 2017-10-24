@@ -1,0 +1,53 @@
+.card,
+.card .project-thumbnail {
+  transition: all 0.25s ease-out;
+  border-radius: $global-radius;
+  @include breakpoint(medium down) {
+    text-align: center;
+  }
+}
+
+.card-icon {
+  @include breakpoint(medium down) {
+    display:none;
+  }
+}
+
+.card p {
+  color: $medium-gray;
+}
+
+.card-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card .icon-arrow-right {
+  transition: all 0.15s ease-out;
+  opacity: 0.0;
+  margin-bottom: -10px;
+}
+
+.card .project-logo {
+  transition: all 0.25s ease-out;
+  position: absolute;
+  opacity: 0.0;
+  z-index: 1;
+}
+
+a:hover .card {
+  background: scale-color($black, $lightness: -20%);
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+  .project-logo {
+    opacity: 1.0;
+  }
+  .project-thumbnail {
+    opacity: 0.6;
+  }
+  .icon-arrow-right {
+    opacity: 1.0;
+    margin-bottom: 0;
+  }
+}

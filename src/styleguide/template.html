@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Guide</title>
+    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/github.min.css">
+
+    <!-- Style guide-specific CSS goes here. -->
+    <style>
+    .styleguide-wrapper {
+      padding-bottom: 10rem;
+    }
+    /* This styles individual sections of the style guide */
+    .ss-section:not(:last-child) {
+      padding-bottom: 4rem;
+      border-bottom: 2px solid #555;
+      margin-bottom: 4rem;
+    }
+
+    /* This styles code blocks used for examples. */
+    .ss-code code {
+      display: block;
+      padding: 1rem;
+      overflow-x: scroll;
+      margin-bottom: 1.5rem;
+    }
+
+    /* This styles the color blocks used in the color documentation. */
+    .color-block {
+      border-radius: 2px;
+      display: block;
+      padding: 8px 8px 6px;
+      margin-bottom: 3rem;
+      color: #eee;
+      border: 1px solid #444;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+    }
+      .color-block span {
+        display: block;
+        width: 100%;
+        height: 100px;
+        margin-bottom: 0.42857rem;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="grid-container styleguide-wrapper">
+
+      <div class="grid-x grid-margin-x grid-margin-y hero">
+        <div class="large-12 cell">
+        <h1>Style Guide</h1>
+          <p class="lead">Dans le respect du design atomique, ce style guide est le répertoire, la bibliothèque concrète, de tout ce joyeux petit bazar.</p>
+          <p><a href="/" class="primary button">Retour au site</a></p>
+        </div>
+      </div>
+
+      <div class="grid-x grid-margin-x grid-margin-y">
+
+        <div class="large-12 cell">
+          {{#each pages}}
+            <section class="ss-section" id="{{ anchor }}">
+              {{ body }}
+            </section>
+          {{/each}}
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="{{root}}assets/js/app.js"></script>
+  </body>
+</html>

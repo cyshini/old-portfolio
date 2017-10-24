@@ -1,0 +1,6 @@
+.hero {
+  padding: 4rem 0;
+  @include breakpoint(medium down) {
+    padding: 2rem 0;
+  }
+}

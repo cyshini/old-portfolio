@@ -1,0 +1,45 @@
+lead-projects:
+  -
+    image: assets/img/hp-card-vertbaudet.jpg
+    logo: assets/img/logo-vertbaudet.svg
+    title: Vertbaudet
+    jobs: UI et UX design, méthodologies
+    link: project-vertbaudet.html
+  -
+    image: assets/img/hp-card-meert.jpg
+    logo: assets/img/logo-meert.svg
+    title: Méert
+    jobs: Direction artistique et UI design
+    link: project-meert.html
+  -
+    image: assets/img/hp-card-maisonsdenflandre.jpg
+    logo: assets/img/logo-maisonsdenflandre.svg
+    title: Maisons d'en Flandre
+    jobs: Direction artistique et UI design
+    link: project-maisonsdenflandre.html
+  -
+    image: assets/img/hp-card-laredoute.jpg
+    logo: assets/img/logo-laredoute.svg
+    title: La Redoute
+    jobs: UI design
+    link: project-laredoute.html
+
+other-projects:
+  -
+    image: assets/img/hp-card-vensto.jpg
+    logo: assets/img/logo-vensto.svg
+    title: Vensto
+    jobs: Direction artistique et UI design
+    link: project-vensto.html
+  -
+    image: assets/img/hp-card-amdplus.jpg
+    logo: assets/img/logo-amdplus.svg
+    title: AMDPlus
+    jobs: Direction artistique et UI design
+    link: project-amdplus.html
+  -
+    image: assets/img/hp-card-myspaceplanner.jpg
+    logo: assets/img/logo-myspaceplanner.svg
+    title: MySpacePlanner
+    jobs: Direction artistique, UI et UX design
+    link: project-myspaceplanner.html

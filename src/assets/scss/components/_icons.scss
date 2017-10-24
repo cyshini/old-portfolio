@@ -1,0 +1,12 @@
+.icon {
+  fill: $white;
+}
+
+a .icon {
+  transition: all 0.25s ease-out;
+  fill: $primary-color;
+}
+
+a:hover .icon {
+  fill: scale-color($primary-color, $lightness: -20%);
+}

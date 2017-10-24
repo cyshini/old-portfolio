@@ -1,0 +1,8 @@
+footer {
+  padding: 6rem 0 2rem 0;
+  font-size: $small-font-size;
+  color: $medium-gray;
+  @include breakpoint(medium down) {
+    padding: 5rem 0;
+  }
+}

@@ -1,0 +1,14 @@
+.logo,
+.logo:hover {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: $white;
+}
+
+.menu a {
+  font-weight: 700;
+  color: $white;
+  text-transform: uppercase;
+  font-size: $small-font-size;
+  letter-spacing: 0.125rem;
+}
