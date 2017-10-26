@@ -60,6 +60,16 @@ function cname () {
     .pipe(gulp.dest(PATHS.dist));
 }
 
+//Deploy on Github Pages
+var ghPages = require('gulp-gh-pages');
+
+gulp.task('deploy', function() {
+  return gulp.src('./dist/**/*')
+    .pipe(ghPages({
+      branch: 'master'
+    }));
+});
+
 // Copy page templates into finished HTML files
 function pages() {
   return gulp.src('src/pages/**/*.{html,hbs,handlebars}')
