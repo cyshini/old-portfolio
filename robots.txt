@@ -1,4 +1,2 @@
 User-Agent: *
 Allow: /
-
-Sitemap: http://cyshini.github.io/sitemap.xml

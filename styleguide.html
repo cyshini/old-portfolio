@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Guide</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/github.min.css">
+
+    <!-- Style guide-specific CSS goes here. -->
+    <style>
+    .styleguide-wrapper {
+      padding-bottom: 10rem;
+    }
+    /* This styles individual sections of the style guide */
+    .ss-section:not(:last-child) {
+      padding-bottom: 4rem;
+      border-bottom: 2px solid #555;
+      margin-bottom: 4rem;
+    }
+
+    /* This styles code blocks used for examples. */
+    .ss-code code {
+      display: block;
+      padding: 1rem;
+      overflow-x: scroll;
+      margin-bottom: 1.5rem;
+    }
+
+    /* This styles the color blocks used in the color documentation. */
+    .color-block {
+      border-radius: 2px;
+      display: block;
+      padding: 8px 8px 6px;
+      margin-bottom: 3rem;
+      color: #eee;
+      border: 1px solid #444;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+    }
+      .color-block span {
+        display: block;
+        width: 100%;
+        height: 100px;
+        margin-bottom: 0.42857rem;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="grid-container styleguide-wrapper">
+
+      <div class="grid-x grid-margin-x grid-margin-y hero">
+        <div class="large-12 cell">
+        <h1>Style Guide</h1>
+          <p class="lead">Dans le respect du design atomique, ce style guide est le répertoire, la bibliothèque concrète, de tout ce joyeux petit bazar.</p>
+          <p><a href="/" class="primary button">Retour au site</a></p>
+        </div>
+      </div>
+
+      <div class="grid-x grid-margin-x grid-margin-y">
+
+        <div class="large-12 cell">
+            <section class="ss-section" id="page-1">
+              <h2>1. Couleurs</h2><p class="lead">Toutes les couleurs utilisées par l&#39;interface du site.</p>
+
+<div class="grid-x grid-margin-x up-1 medium-up-3 large-up-5">
+  <div class="cell">
+    <div class="color-block">
+      <span style="background: #5863f8"></span>
+      primary : #5863f8
+    </div>
+  </div>
+  <div class="cell">
+    <div class="color-block">
+      <span style="background: #3a3a4f"></span>
+      secondary : #3a3a4f
+    </div>
+  </div>
+  <div class="cell">
+    <div class="color-block">
+      <span style="background: #3adb76"></span>
+      success : #3adb76
+    </div>
+  </div>
+  <div class="cell">
+    <div class="color-block">
+      <span style="background: #ffae00"></span>
+      warning : #ffae00
+    </div>
+  </div>
+  <div class="cell">
+    <div class="color-block">
+      <span style="background: #cc4b37"></span>
+      alert : #cc4b37
+    </div>
+  </div>
+</div>
+
+<div class="grid-x grid-margin-x up-1 medium-up-3 large-up-5">
+  <div class="cell">
+    <div class="color-block">
+      <span style="background: #e6e6e6"></span>
+      light-gray : #e6e6e6
+    </div>
+  </div>
+  <div class="cell">
+    <div class="color-block">
+      <span style="background: #9d9da9"></span>
+      medium-gray : #9d9da9
+    </div>
+  </div>
+  <div class="cell">
+    <div class="color-block">
+      <span style="background: #555566"></span>
+      dark-gray : #555566
+    </div>
+  </div>
+  <div class="cell">
+    <div class="color-block">
+      <span style="background: #22222d"></span>
+      black : #22222d
+    </div>
+  </div>
+  <div class="cell">
+    <div class="color-block">
+      <span style="background: #fefefe"></span>
+      white : #fefefe
+    </div>
+  </div>
+</div>
+            </section>
+            <section class="ss-section" id="heading-level-1">
+              <h2>2. Typographie</h2><p class="lead">Cette charte utilise la typographie <a href="https://rsms.me/inter/" rel="nofollow">Inter UI</a> pour les titres et paragraphes.</p>
+
+<h1>Heading Level 1</h1>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quibusdam ratione sunt dolorum, qui illo maxime doloremque accusantium cum libero eum. <a href="#">This is a link</a>.</p>
+
+<h2>Heading Level 2</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quibusdam ratione sunt dolorum, qui illo maxime doloremque accusantium cum libero eum. <a href="#">This is a link</a>.</p>
+
+<h3>Heading Level 3</h3>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quibusdam ratione sunt dolorum, qui illo maxime doloremque accusantium cum libero eum. <a href="#">This is a link</a>.</p>
+
+<h4>Heading Level 4</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quibusdam ratione sunt dolorum, qui illo maxime doloremque accusantium cum libero eum. <a href="#">This is a link</a>.</p>
+
+<h5>Heading Level 5</h5>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quibusdam ratione sunt dolorum, qui illo maxime doloremque accusantium cum libero eum. <a href="#">This is a link</a>.</p>
+
+<h6>Heading Level 6</h6>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic quibusdam ratione sunt dolorum, qui illo maxime doloremque accusantium cum libero eum. <a href="#">This is a link</a>.</p>
+            </section>
+            <section class="ss-section" id="page-3">
+              <h2>3. Boutons</h2><p class="lead">Les boutons se décomposent en deux familles : les &quot;primary&quot; et les &quot;secondary&quot;</p>
+
+<h3>3.1 Primary</h3><p>Ce sont les boutons principaux de chaque page. Leur taille peut être ajustée avec les classes <code>.tiny</code>, <code>.small</code>, and <code>.large</code>.</p>
+<div class="ss-code"><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"primary large button"</span>&gt;</span>Large button<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"primary button"</span>&gt;</span>Regular button<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"primary small button"</span>&gt;</span>Small button<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"primary tiny button"</span>&gt;</span>Tiny button<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span></code></pre></div>
+
+<div class="ss-code-live"><a href="#" class="primary large button">Large button</a>
+<a href="#" class="primary button">Regular button</a>
+<a href="#" class="primary small button">Small button</a>
+<a href="#" class="primary tiny button">Tiny button</a></div><hr>
+<h3>3.2 Secondary</h3><p>Ces boutons sont dédiés aux actions secondaires sur les pages.</p>
+<div class="ss-code"><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"secondary large button"</span>&gt;</span>Large button<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"secondary button"</span>&gt;</span>Regular button<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"secondary small button"</span>&gt;</span>Small button<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"secondary tiny button"</span>&gt;</span>Tiny button<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span></code></pre></div>
+
+<div class="ss-code-live"><a href="#" class="secondary large button">Large button</a>
+<a href="#" class="secondary button">Regular button</a>
+<a href="#" class="secondary small button">Small button</a>
+<a href="#" class="secondary tiny button">Tiny button</a></div>
+            </section>
+            <section class="ss-section" id="page-4">
+              <h2>4. Callout</h2><p class="lead">Les callouts sont des encarts de contenus simples, traditionnellement délimités par une bordure et/ou un fond.</p>
+
+<div class="ss-code"><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"callout"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">h2</span>&gt;</span>Callout title<span class="hljs-tag">&lt;/<span class="hljs-title">h2</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac nisi eros. Phasellus mattis nisi a tempor rutrum. Vivamus elementum eget nisl in scelerisque. Vestibulum interdum justo ante, eleifend volutpat turpis dignissim quis. Aliquam mollis ante lacinia nisl auctor, ut iaculis urna commodo. Morbi ornare viverra bibendum. Donec varius arcu a bibendum pellentesque. Aliquam congue massa eu elementum gravida.<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre></div>
+
+<div class="ss-code-live"><div class="callout">
+  <h2>Callout title</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac nisi eros. Phasellus mattis nisi a tempor rutrum. Vivamus elementum eget nisl in scelerisque. Vestibulum interdum justo ante, eleifend volutpat turpis dignissim quis. Aliquam mollis ante lacinia nisl auctor, ut iaculis urna commodo. Morbi ornare viverra bibendum. Donec varius arcu a bibendum pellentesque. Aliquam congue massa eu elementum gravida.</p>
+</div></div>
+            </section>
+            <section class="ss-section" id="page-5">
+              <h2>5. Cards</h2><p class="lead">Les cards allient image et texte. Présentes en grilles, elles servent généralement de point d&#39;accès visuel vers d&#39;autres pages.</p>
+
+<div class="ss-code"><pre><code class="html"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"grid-container"</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"grid-x grid-margin-x grid-margin-y"</span>&gt;</span>
+
+    <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"medium-6 cell"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"card"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"card-images"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">img</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"http://via.placeholder.com/200x200?text=Logo"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"project-logo"</span> <span class="hljs-attribute">alt</span>=<span class="hljs-value">""</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">img</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"http://via.placeholder.com/800x600?text=Image"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"project-thumbnail"</span> <span class="hljs-attribute">alt</span>=<span class="hljs-value">"Project title"</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"card-section"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">h2</span>&gt;</span>Card title<span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"card-icon"</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-title">svg</span> <span class="hljs-attribute">xmlns</span>=<span class="hljs-value">"http://www.w3.org/2000/svg"</span> <span class="hljs-attribute">width</span>=<span class="hljs-value">"22"</span> <span class="hljs-attribute">height</span>=<span class="hljs-value">"18"</span> <span class="hljs-attribute">viewBox</span>=<span class="hljs-value">"0 -2 22 18"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"icon-arrow-right"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">polygon</span> <span class="hljs-attribute">points</span>=<span class="hljs-value">"20.3 7 14.2 0.9 12.4 2.7 15.5 5.8 1.7 5.8 1.7 8.3 15.5 8.3 12.4 11.3 14.2 13.1 20.3 7 20.3 7 "</span> <span class="hljs-attribute">fill</span>=<span class="hljs-value">"#FFF"</span>/&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">svg</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">h2</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+
+    <span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">"#"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"medium-6 cell"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"card"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"card-images"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">img</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"http://via.placeholder.com/200x200?text=Logo"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"project-logo"</span> <span class="hljs-attribute">alt</span>=<span class="hljs-value">""</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">img</span> <span class="hljs-attribute">src</span>=<span class="hljs-value">"http://via.placeholder.com/800x600?text=Image"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"project-thumbnail"</span> <span class="hljs-attribute">alt</span>=<span class="hljs-value">"Project title"</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"card-section"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">h2</span>&gt;</span>Card title<span class="hljs-tag">&lt;<span class="hljs-title">span</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"card-icon"</span>&gt;</span> <span class="hljs-tag">&lt;<span class="hljs-title">svg</span> <span class="hljs-attribute">xmlns</span>=<span class="hljs-value">"http://www.w3.org/2000/svg"</span> <span class="hljs-attribute">width</span>=<span class="hljs-value">"22"</span> <span class="hljs-attribute">height</span>=<span class="hljs-value">"18"</span> <span class="hljs-attribute">viewBox</span>=<span class="hljs-value">"0 -2 22 18"</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"icon-arrow-right"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">polygon</span> <span class="hljs-attribute">points</span>=<span class="hljs-value">"20.3 7 14.2 0.9 12.4 2.7 15.5 5.8 1.7 5.8 1.7 8.3 15.5 8.3 12.4 11.3 14.2 13.1 20.3 7 20.3 7 "</span> <span class="hljs-attribute">fill</span>=<span class="hljs-value">"#FFF"</span>/&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">svg</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">h2</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span></code></pre></div>
+
+<div class="ss-code-live"><div class="grid-container">
+
+  <div class="grid-x grid-margin-x grid-margin-y">
+
+    <a href="#" class="medium-6 cell">
+      <div class="card">
+        <div class="card-images">
+          <img src="http://via.placeholder.com/200x200?text=Logo" class="project-logo" alt="">
+          <img src="http://via.placeholder.com/800x600?text=Image" class="project-thumbnail" alt="Project title">
+        </div>
+        <div class="card-section">
+          <h2>Card title<span class="card-icon"> <svg xmlns="http://www.w3.org/2000/svg" width="22" height="18" viewBox="0 -2 22 18" class="icon-arrow-right"><polygon points="20.3 7 14.2 0.9 12.4 2.7 15.5 5.8 1.7 5.8 1.7 8.3 15.5 8.3 12.4 11.3 14.2 13.1 20.3 7 20.3 7 " fill="#FFF"/></svg></span></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+    </a>
+
+    <a href="#" class="medium-6 cell">
+      <div class="card">
+        <div class="card-images">
+          <img src="http://via.placeholder.com/200x200?text=Logo" class="project-logo" alt="">
+          <img src="http://via.placeholder.com/800x600?text=Image" class="project-thumbnail" alt="Project title">
+        </div>
+        <div class="card-section">
+          <h2>Card title<span class="card-icon"> <svg xmlns="http://www.w3.org/2000/svg" width="22" height="18" viewBox="0 -2 22 18" class="icon-arrow-right"><polygon points="20.3 7 14.2 0.9 12.4 2.7 15.5 5.8 1.7 5.8 1.7 8.3 15.5 8.3 12.4 11.3 14.2 13.1 20.3 7 20.3 7 " fill="#FFF"/></svg></span></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+    </a>
+
+  </div>
+
+</div></div>
+            </section>
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
