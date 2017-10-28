@@ -39,3 +39,7 @@ Commit and push sources to your repository
 Create compressed, production-ready assets
 
     npm run build
+
+Deploy the production folder
+
+    gulp deploy
