@@ -12,12 +12,6 @@ lead-projects:
     jobs: Direction artistique et UI design
     link: project-meert.html
   -
-    image: assets/img/hp-card-maisonsdenflandre.jpg
-    logo: assets/img/logo-maisonsdenflandre.svg
-    title: Maisons d'en Flandre
-    jobs: Direction artistique et UI design
-    link: project-maisonsdenflandre.html
-  -
     image: assets/img/hp-card-laredoute.jpg
     logo: assets/img/logo-laredoute.svg
     title: La Redoute
@@ -25,6 +19,12 @@ lead-projects:
     link: project-laredoute.html
 
 other-projects:
+  -
+    image: assets/img/hp-card-maisonsdenflandre.jpg
+    logo: assets/img/logo-maisonsdenflandre.svg
+    title: Maisons d'en Flandre
+    jobs: Direction artistique et UI design
+    link: project-maisonsdenflandre.html
   -
     image: assets/img/hp-card-vensto.jpg
     logo: assets/img/logo-vensto.svg
@@ -37,9 +37,3 @@ other-projects:
     title: AMDPlus
     jobs: Direction artistique et UI design
     link: project-amdplus.html
-  -
-    image: assets/img/hp-card-myspaceplanner.jpg
-    logo: assets/img/logo-myspaceplanner.svg
-    title: MySpacePlanner
-    jobs: Direction artistique, UI et UX design
-    link: project-myspaceplanner.html
