@@ -1,7 +1,7 @@
 <div class="grid-container">
 
   <div class="grid-x grid-margin-x grid-margin-y hero">
-    <div class="large-6 cell">
+    <div class="large-8 cell">
       <h1>UI / UX designer à Lille, depuis 2007 je travaille à faciliter la vie des gens en joignant l’utile à l’agréable.</h1>
       <p>
         Je ne suis pas un unicorn-storyteller-digital-ninja-artist : mon métier est designer, tout bêtement. Je m'efforce ainsi de toujours garder un regard critique sur ma profession, ses méthodes et les buts qu'elle sert.
@@ -16,7 +16,7 @@
         <strong>Je suis actuellement Lead UI Designer chez Cooptalis.</strong> Pour en savoir plus sur mon parcours, l'inénarrable <a href="https://www.linkedin.com/in/fran%C3%A7ois-vilaire-9a9bb117/">Linkedin est là</a>. Et pour me contacter, c'est à l'adresse <a href="mailto:hello@francoisvilaire.com">hello@francoisvilaire.com</a>
       </blockquote>
     </div>
-    <div class="large-6 cell"></div>
+    <div class="large-4 cell"></div>
     <div class="large-6 cell"></div>
     <div class="large-6 cell">
       <h2>Et au quotidien ?</h2>
@@ -37,24 +37,19 @@
   </div>
 
   <div class="grid-x grid-margin-x grid-margin-y">
-    <div class="medium-6 cell">
+    <div class="medium-6 xlarge-4 cell">
       <h2>Et ce portfolio alors ?</h2>
+      <p>
+        Oui, c'est bien ici. Ci-contre se trouvent quelques exemples de réalisations ayant ponctué mes années au service des internets et des utilisateurs.
+      </p>
+      <p>
+        Pour plus d'informations, de détails et de supports à consulter avec allégresse, je reste bien évidemment joignable pour vous rencontrer et papoter.
+      </p>
+      <p>
+        Bonne lecture !
+      </p>
     </div>
-    {{#each global.lead-projects}}
-      <a href="{{link}}" class="medium-6 cell">
-        <div class="card">
-          <div class="card-images">
-            <img src="{{logo}}" class="project-logo" alt="">
-            <img src="{{image}}" class="project-thumbnail" alt="{{title}}">
-          </div>
-          <div class="card-section">
-            <h2>{{title}}<span class="card-icon"> <svg xmlns="http://www.w3.org/2000/svg" width="22" height="18" viewBox="0 -2 22 18" class="icon-arrow-right"><polygon points="20.3 7 14.2 0.9 12.4 2.7 15.5 5.8 1.7 5.8 1.7 8.3 15.5 8.3 12.4 11.3 14.2 13.1 20.3 7 20.3 7 " fill="#FFF"/></svg></span></h2>
-            <p>{{jobs}}</p>
-          </div>
-        </div>
-      </a>
-    {{/each}}
-    {{#each global.other-projects}}
+    {{#each global.projects}}
       <a href="{{link}}" class="medium-6 xlarge-4 cell">
         <div class="card">
           <div class="card-images">

@@ -1,4 +1,4 @@
-lead-projects:
+projects:
   -
     image: assets/img/hp-card-vertbaudet.jpg
     logo: assets/img/logo-vertbaudet.svg
@@ -17,8 +17,6 @@ lead-projects:
     title: La Redoute
     jobs: UI design
     link: project-laredoute.html
-
-other-projects:
   -
     image: assets/img/hp-card-maisonsdenflandre.jpg
     logo: assets/img/logo-maisonsdenflandre.svg
