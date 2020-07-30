@@ -1,6 +1,6 @@
 .hero {
-  padding: 2rem 0;
+  padding: 3rem 0;
   @include breakpoint(medium down) {
-    padding: 1rem 0;
+    padding: 1.5rem 0;
   }
 }

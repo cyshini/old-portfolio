@@ -1,5 +1,11 @@
 projects:
   -
+    image: assets/img/hp-card-leroymerlin.jpg
+    logo: assets/img/logo-leroymerlin.svg
+    title: Adeo / Leroy Merlin
+    jobs: UX Research, UX et UI design
+    link: project-leroymerlin.html
+  -
     image: assets/img/hp-card-vertbaudet.jpg
     logo: assets/img/logo-vertbaudet.svg
     title: Vertbaudet
@@ -21,7 +27,7 @@ projects:
     image: assets/img/hp-card-maisonsdenflandre.jpg
     logo: assets/img/logo-maisonsdenflandre.svg
     title: Maisons d'en Flandre
-    jobs: Direction artistique et UI design
+    jobs:  UI design
     link: project-maisonsdenflandre.html
   -
     image: assets/img/hp-card-vensto.jpg

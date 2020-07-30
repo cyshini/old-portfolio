@@ -1,7 +1,7 @@
 <div class="grid-container">
 
   <div class="grid-x grid-margin-x grid-margin-y hero">
-    <div class="large-8 cell">
+    <div class="xlarge-8 cell">
       <h1>UI / UX designer à Lille, depuis 2007 je travaille à faciliter la vie des gens en joignant l’utile à l’agréable.</h1>
       <p>
         Je ne suis pas un unicorn-storyteller-digital-ninja-artist : mon métier est designer, tout bêtement. Je m'efforce ainsi de toujours garder un regard critique sur ma profession, ses méthodes et les buts qu'elle sert.
@@ -16,11 +16,14 @@
         <strong>Je suis actuellement Lead UI Designer chez Cooptalis.</strong> Pour en savoir plus sur mon parcours, l'inénarrable <a href="https://www.linkedin.com/in/fran%C3%A7ois-vilaire-9a9bb117/">Linkedin est là</a>. Et pour me contacter, c'est à l'adresse <a href="mailto:hello@francoisvilaire.com">hello@francoisvilaire.com</a>
       </blockquote>
     </div>
-    <div class="large-4 cell"></div>
-    <div class="large-6 cell"></div>
+    <div class="xlarge-4 cell"></div>
+  </div>
+  <div class="grid-x grid-margin-x grid-margin-y hero">
     <div class="large-6 cell">
-      <h2>Et au quotidien ?</h2>
-      <p>Je peux accompagner les équipes sur 4 moments :</p>
+      <p><img src="assets/img/hp-expertises.jpg" alt="Le travail au quotidien"></p>
+    </div>
+    <div class="large-6 cell">
+      <h2>Au quotidien, je peux accompagner sur 4 moments...</h2>
       <div class="callout">
         <p>&#x1F50D; <strong>Exploration :</strong> questionnaires, conduite d'interviews ouvertes auprès des utilisateurs, synthèse visuelle accessible.</p>
       </div>
@@ -34,6 +37,8 @@
         <p>&#x1F5E3; <strong>Animation :</strong> ateliers de co-design, formation des équipes aux grands principes de l’UX et du design d’interfaces.</p>
       </div>
     </div>
+    <div class ="large-12 cell"></div>
+    <div class ="large-12 cell"></div>
   </div>
 
   <div class="grid-x grid-margin-x grid-margin-y">
@@ -50,14 +55,14 @@
       </p>
     </div>
     {{#each global.projects}}
-      <a href="{{link}}" class="medium-6 xlarge-4 cell">
+      <a href="{{link}}" class="large-6 xlarge-4 cell">
         <div class="card">
           <div class="card-images">
             <img src="{{logo}}" class="project-logo" alt="">
             <img src="{{image}}" class="project-thumbnail" alt="{{title}}">
           </div>
           <div class="card-section">
-            <h3>{{title}}<span class="card-icon"> <svg xmlns="http://www.w3.org/2000/svg" width="22" height="18" viewBox="0 -2 22 18" class="icon-arrow-right"><polygon points="20.3 7 14.2 0.9 12.4 2.7 15.5 5.8 1.7 5.8 1.7 8.3 15.5 8.3 12.4 11.3 14.2 13.1 20.3 7 20.3 7 " fill="#FFF"/></svg></span></h3>
+            <h3 class="margin-bottom-0">{{title}}<span class="card-icon"> <svg xmlns="http://www.w3.org/2000/svg" width="22" height="18" viewBox="0 -2 22 18" class="icon-arrow-right"><polygon points="20.3 7 14.2 0.9 12.4 2.7 15.5 5.8 1.7 5.8 1.7 8.3 15.5 8.3 12.4 11.3 14.2 13.1 20.3 7 20.3 7 " fill="#FFF"/></svg></span></h3>
             <p>{{jobs}}</p>
           </div>
         </div>
